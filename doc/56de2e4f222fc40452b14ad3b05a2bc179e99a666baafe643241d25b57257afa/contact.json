@@ -1,0 +1,56 @@
+{
+  "agreement": {
+    "validation": {
+      "required": { "params": "", "message": "チェックを入れてください" }
+    }
+  },
+  "contents": {
+    "validation": {
+      "required": {
+        "params": "",
+        "message": "入力してください"
+      },
+      "maxlen": {
+        "params": "100000",
+        "message": "100000文字までしか入力できません"
+      }
+    }
+  },
+  "kana": {
+    "validation": {
+      "required": {
+        "params": "",
+        "message": "入力してください"
+      },
+      "maxlen": {
+        "params": "30",
+        "message": "30文字までしか入力できません"
+      }
+    }
+  },
+  "mail": {
+    "validation": {
+      "required": {
+        "params": "",
+        "message": "入力してください"
+      },
+      "email": {
+        "params": "",
+        "message": "メールアドレスが正しくありません"
+      },
+      "maxlen": {
+        "params": "255",
+        "message": "255文字までしか入力できません"
+      }
+    }
+  },
+  "namae": {
+    "validation": {
+      "required": { "params": "", "message": "入力してください" },
+      "maxlen": {
+        "params": "30",
+        "message": "30文字までしか入力できません"
+      }
+    }
+  }
+}
