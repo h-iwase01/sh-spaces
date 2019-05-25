@@ -25,6 +25,10 @@
       "maxlen": {
         "params": "30",
         "message": "30文字までしか入力できません"
+      },
+      "hiragana": {
+        "params": "",
+        "message": "ひらがなで入力してください"
       }
     }
   },
